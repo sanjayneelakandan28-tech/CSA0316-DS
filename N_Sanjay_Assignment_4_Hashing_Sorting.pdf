@@ -1,0 +1,8006 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Data Structures Assignment 4 \205 CO4)
+/Author (N\056Sanjay)
+/Subject (High\055Performance Data Processing System \205 Hashing\054 Priority Queues\054 Heaps and Sorting)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 16
+/Kids [ 4 0 R 13 0 R 16 0 R 19 0 R 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R 40 0 R 43 0 R 46 0 R 49 0 R 52 0 R 55 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6744
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+Q
+q
+1 0 0 1 54.18898 764.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 11 Tf 15 TL 51.32832 0 Td (SIMATS ENGINEERING | DEPARTMENT OF INFORMATION TECHNOLOGY) Tj T* -51.32832 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 739.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL 164.3448 0 Td (DATA STRUCTURES) Tj T* -164.3448 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 711.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL 158.0968 0 Td (ASSIGNMENT 4 \226 CO4) Tj T* -158.0968 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 683.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL 42.99282 0 Td (HIGH-PERFORMANCE DATA PROCESSING SYSTEM) Tj T* -42.99282 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 660.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 11 Tf 15 TL 103.1713 0 Td (HASHING, PRIORITY QUEUES, HEAPS AND SORTING) Tj T* -103.1713 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19 Tm /F3 11 Tf 15 TL .414819 0 Td (CO4: Apply hashing, priority queues, heaps and sequential/parallel sorting techniques; analyse their) Tj T* 176.704 0 Td (time and space complexity.) Tj T* -177.1188 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 602.1969 cm
+Q
+q
+1 0 0 1 54.18898 466.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 136 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 102 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 68 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 123 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (STUDENT DETAILS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 132 cm
+Q
+q
+1 0 0 1 4 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Student Name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (A Mohammad Riyaz) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Register Number) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (192524375) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Department) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Computer Science Engineering) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Course) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Data Structures) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Assignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Assignment 4 \226 CO4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Academic Year) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2025\2262029) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Nature) Tj T* ET
+Q
+Q
+q
+1 0 0 1 159.9055 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Individual) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 136 m 453.5433 136 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 136 l S
+n 453.5433 0 m 453.5433 136 l S
+n 0 119 m 453.5433 119 l S
+n 0 102 m 453.5433 102 l S
+n 0 85 m 453.5433 85 l S
+n 0 68 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 155.9055 0 m 155.9055 136 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 461.1969 cm
+Q
+q
+1 0 0 1 54.18898 431.1969 cm
+q
+BT 1 0 0 1 0 15.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Assignment Overview:) Tj /F1 8.7 Tf ( This report studies a high-performance data processing system that indexes student and course) Tj T* (records, schedules urgent background jobs and sorts large assessment/activity datasets.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 389.1969 cm
+q
+BT 1 0 0 1 0 27.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Design context:) Tj /F1 8.7 Tf ( The platform contains approximately 100,000 student activity records, 25,000 course records and millions of) Tj T* (assessment scores. The design combines hash tables for exact-match lookup, a min-heap for job scheduling and suitable) Tj T* (sorting methods for report generation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 359.1969 cm
+q
+BT 1 0 0 1 0 15.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Implementation note:) Tj /F1 8.7 Tf ( C11 is used for CPU-side examples. Hardware-dependent CUDA execution and machine-specific) Tj T* (benchmark timings are identified as conceptual or Not measured rather than fabricated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 333.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (System assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 315.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Student, course and job identifiers are unique; duplicate identifiers are rejected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 297.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Hash exercises use h\(k\) = k mod m and state the table capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 279.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Values are sorted in ascending order and duplicates are preserved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 261.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Priority 1 is highest; equal priorities are processed in arrival order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 243.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Inputs may include positive, zero, negative and duplicate values unless restricted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 225.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (\177 Only actual measurements are reported; unavailable measurements are marked Not measured.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 199.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 61.19685 cm
+q
+BT 1 0 0 1 0 123.3 Tm 12 TL /F1 8.7 Tf 0 0 0 rg (Task 1 \226 System operations and entities) Tj  T* (Task 2 \226 Hashing and sorting comparison) Tj  T* (Task 3 \226 Separate chaining) Tj  T* (Task 4 \226 Linear probing and resizing) Tj  T* (Task 5 \226 Priority queue and binary heap) Tj  T* (Task 6 \226 Insertion sort and quick sort) Tj  T* (Task 7 \226 Merge sort and radix sort) Tj  T* (Task 8 \226 Heap sort) Tj  T* (Task 9 \226 Parallel sorting: threads, MapReduce and CUDA) Tj  T* (Task 10 \226 Complexity and memory analysis) Tj  T* (Task 11 \226 C implementation and test plan) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+190 656.8898 250 22 re
+f*
+n
+190 634.8898 250 22 re
+f*
+0 0 0 rg
+BT
+/F1-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 194 662.8898 Tm
+(N\056Sanjay) Tj
+T*
+ET
+BT
+1 0 0 1 194 640.8898 Tm
+(124260162) Tj
+T*
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 1) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Symbol
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 728
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 2) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 755.1969 cm
+q
+BT 1 0 0 1 0 15.3 Tm 12 TL /F1 8.7 Tf 0 0 0 rg  T* (Task 12 \226 Benchmarking, recommendation and conclusion) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 2) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 8813
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 3) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 747.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 19 Tm /F2 13 Tf 16 TL (TASK 1 \226 UNDERSTAND THE SYSTEM AND IDENTIFY OPERATIONS \(4) Tj T* (MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 727.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (1.1\(a\) Data workflow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 649.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 63.3 Tm /F1 8.7 Tf 12 TL (A student activity record first arrives through the platform API or user interface. The input layer checks that the student ID and) Tj T* (course ID are valid, required fields are present, timestamps are valid and the score/activity value is within the accepted range.) Tj T* (A valid record receives a unique record ID and is stored in the persistent record store. Its ID is inserted into a hash-table index) Tj T* (for expected constant-time exact lookup. If the record requires expensive analytics, a background job is created and inserted) Tj T* (into a min-heap using \(priority, arrival sequence\). The scheduler repeatedly extracts the most urgent job. Completed records) Tj T* (are collected into a report batch, sorted by score or activity ID, and exported.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 595.1969 cm
+q
+BT 1 0 0 1 0 39.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Correctness constraints:) Tj /F1 8.7 Tf ( \(1\) reject duplicate unique IDs; \(2\) never index a record before successful validation/storage; \(3\)) Tj T* (preserve referential integrity between student and course IDs; \(4\) a hash collision must not overwrite another key; \(5\) heap) Tj T* (ordering must use priority and then arrival sequence; \(6\) sorting must preserve all duplicate values; \(7\) report generation must) Tj T* (use a consistent input snapshot.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 575.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (1.1\(b\) Entity table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 469.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 102 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 68 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Entity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Primary key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Relevant attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (StudentRecord) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (student_id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (name, department, year, email, status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Course) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (course_id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (course_name, faculty_id, credits, semester, capacity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (AssessmentScore) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (score_id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (student_id, course_id, assessment_type, score, timestamp) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (ProcessingJob) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (job_id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (job_type, priority, arrival_sequence, status, created_at) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (ReportBatch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (batch_id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (report_type, created_at, record_count, sort_key, output_location) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 102 m 453.5433 102 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 102 l S
+n 453.5433 0 m 453.5433 102 l S
+n 0 85 m 453.5433 85 l S
+n 0 68 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 90.70866 0 m 90.70866 102 l S
+n 170.0787 0 m 170.0787 102 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 464.1969 cm
+Q
+q
+1 0 0 1 54.18898 444.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (1.2\(c\) Operation frequency and target) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 321.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 119 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Operation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Frequency) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Target / reason) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Find record by ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (High) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\) hash lookup; frequent exact-match access) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insert record) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (High) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\) hash insertion; continuous incoming events) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Process next job) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Medium\226High) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(log n\) extract-min; urgent jobs must be selected) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sort assessment scores) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Medium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\) comparison sort for large datasets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sort fixed-range activity IDs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Medium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Radix sort can approach O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Generate large reports) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.8819 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Low\226Medium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Parallel sort only when data size offsets coordination cost) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 119 m 453.5433 119 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 119 l S
+n 453.5433 0 m 453.5433 119 l S
+n 0 102 m 453.5433 102 l S
+n 0 85 m 453.5433 85 l S
+n 0 68 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 104.8819 0 m 104.8819 119 l S
+n 181.4173 0 m 181.4173 119 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 316.1969 cm
+Q
+q
+1 0 0 1 54.18898 296.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (1.2\(d\) Why both a hash table and a heap?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 242.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL (The structures solve different access patterns. A hash table maps a key to a record and is optimized for exact-match lookup) Tj T* (and insertion. A heap exposes only the minimum-priority job efficiently; it does not provide fast arbitrary ID lookup. Combining) Tj T* (them avoids forcing one structure to perform an operation for which it is poorly suited. A separate job-ID hash index can) Tj T* (additionally support cancellation or status lookup.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 11567
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 4) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 2 \226 COMPARE HASHING AND SORTING TECHNIQUES \(3 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 743.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (2.1 Collision-resolution comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 619.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 120 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 86 453.5433 -26 re f*
+.933333 .94902 .964706 rg
+n 0 43 453.5433 -26 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 107 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 107 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Separate chaining) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 107 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Open addressing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Storage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Linked nodes/buckets outside the table array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (All keys stored inside the table array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Deletion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Remove node from its chain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 64 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Use tombstone; clearing to empty can break probe) Tj T* (paths) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Clustering) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Long chains if hash distribution is poor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Linear probing can form primary clusters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Load factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Can exceed 1; performance degrades as chains grow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Must remain below 1; performance degrades sharply) Tj T* (near full) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected search) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\) with good hash and controlled load) Tj T* ET
+Q
+Q
+q
+1 0 0 1 270.4567 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\) at moderate load; worst O\(n\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 120 m 453.5433 120 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 120 l S
+n 453.5433 0 m 453.5433 120 l S
+n 0 103 m 453.5433 103 l S
+n 0 86 m 453.5433 86 l S
+n 0 60 m 453.5433 60 l S
+n 0 43 m 453.5433 43 l S
+n 0 17 m 453.5433 17 l S
+n 79.37008 0 m 79.37008 120 l S
+n 266.4567 0 m 266.4567 120 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 614.1969 cm
+Q
+q
+1 0 0 1 54.18898 594.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (2.2 Sorting algorithm comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 479.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 111 396.8504 -26 re f*
+.933333 .94902 .964706 rg
+n 0 68 396.8504 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 396.8504 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Best) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Average) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Worst) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Extra space) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 98 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Stable?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 10.7 Tm /F2 7.3 Tf 9 TL (Comparison) Tj T* (?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Quick) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(log n\) avg stack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Usually no) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Merge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Radix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n+b\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes*) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.19685 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.2205 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 227.937 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\) iterative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 298.8031 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 111 m 396.8504 111 l S
+n 0 0 m 396.8504 0 l S
+n 0 0 m 0 111 l S
+n 396.8504 0 m 396.8504 111 l S
+n 0 85 m 396.8504 85 l S
+n 0 68 m 396.8504 68 l S
+n 0 51 m 396.8504 51 l S
+n 0 34 m 396.8504 34 l S
+n 0 17 m 396.8504 17 l S
+n 65.19685 0 m 65.19685 111 l S
+n 116.2205 0 m 116.2205 111 l S
+n 172.9134 0 m 172.9134 111 l S
+n 223.937 0 m 223.937 111 l S
+n 294.8031 0 m 294.8031 111 l S
+n 342.9921 0 m 342.9921 111 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 474.1969 cm
+Q
+q
+1 0 0 1 54.18898 456.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (*Radix sort is stable when each digit pass uses a stable distribution method, such as counting sort.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (2.3 Suitable choices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 303.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 129 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 95 453.5433 -26 re f*
+.933333 .94902 .964706 rg
+n 0 43 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 116 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Case) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 116 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 116 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Reason and limitation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (20 nearly sorted values) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Low overhead and near O\(n\); reverse order still causes O\(n\262\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 82 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,000,000 random integers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Quick sort or optimized) Tj T* (merge sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Quick sort is typically fast in memory; poor pivots can cause O\(n\262\). Merge sort) Tj T* (guarantees O\(n log n\) but uses O\(n\) extra space.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Fixed-width non-negative) Tj T* (IDs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 56 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Radix sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Avoids key comparisons; needs known digit representation and auxiliary) Tj T* (storage.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Memory-constrained sorting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Heap sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\) auxiliary space; not stable and often less cache-friendly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Equal-key order must) Tj T* (remain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Merge sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Stable; requires additional memory.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 129 m 453.5433 129 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 129 l S
+n 453.5433 0 m 453.5433 129 l S
+n 0 112 m 453.5433 112 l S
+n 0 95 m 453.5433 95 l S
+n 0 69 m 453.5433 69 l S
+n 0 43 m 453.5433 43 l S
+n 0 26 m 453.5433 26 l S
+n 99.2126 0 m 99.2126 129 l S
+n 195.5906 0 m 195.5906 129 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 298.1969 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 17629
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 5) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 3 \226 HASH FUNCTIONS AND SEPARATE CHAINING \(5 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 733.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Given m = 7 and h\(k\) = k mod 7. Insert keys in this order: 19, 26, 13, 20, 33, 40, 7, 14. New nodes are appended to the end of) Tj T* (each bucket chain so insertion order is preserved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 575.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 153 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 119 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Calculation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Collision?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19 mod 7 = 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (26 mod 7 = 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes: 19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13 mod 7 = 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (20 mod 7 = 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes: 13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33 mod 7 = 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes: 19, 26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (40 mod 7 = 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes: 19, 26, 33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7 mod 7 = 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14 mod 7 = 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.9134 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 233.6063 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes: 7) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 153 m 453.5433 153 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 153 l S
+n 453.5433 0 m 453.5433 153 l S
+n 0 136 m 453.5433 136 l S
+n 0 119 m 453.5433 119 l S
+n 0 102 m 453.5433 102 l S
+n 0 85 m 453.5433 85 l S
+n 0 68 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 51.02362 0 m 51.02362 153 l S
+n 172.9134 0 m 172.9134 153 l S
+n 229.6063 0 m 229.6063 153 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 570.1969 cm
+Q
+q
+1 0 0 1 54.18898 550.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (3.2 Table after each insertion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 372.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 174 524.4094 -17 re f*
+.933333 .94902 .964706 rg
+n 0 140 524.4094 -20 re f*
+.933333 .94902 .964706 rg
+n 0 100 524.4094 -20 re f*
+.933333 .94902 .964706 rg
+n 0 60 524.4094 -20 re f*
+.933333 .94902 .964706 rg
+n 0 20 524.4094 -20 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (After insertion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 443.3701 161 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 443.3701 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 126 Tm  T* ET
+q
+1 0 0 1 4 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 106 Tm  T* ET
+q
+1 0 0 1 4 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 86 Tm  T* ET
+q
+1 0 0 1 4 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 66 Tm  T* ET
+q
+1 0 0 1 4 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (33) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 46 Tm  T* ET
+q
+1 0 0 1 4 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (33) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 26 Tm  T* ET
+q
+1 0 0 1 4 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 216.5984 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (26) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (33) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL (20) Tj T* ET
+Q
+Q
+BT 1 0 0 1 443.3701 6 Tm  T* ET
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 174 m 524.4094 174 l S
+n 0 0 m 524.4094 0 l S
+n 0 0 m 0 174 l S
+n 524.4094 0 m 524.4094 174 l S
+n 0 157 m 524.4094 157 l S
+n 0 140 m 524.4094 140 l S
+n 0 120 m 524.4094 120 l S
+n 0 100 m 524.4094 100 l S
+n 0 80 m 524.4094 80 l S
+n 0 60 m 524.4094 60 l S
+n 0 40 m 524.4094 40 l S
+n 0 20 m 524.4094 20 l S
+n 70.86614 0 m 70.86614 174 l S
+n 127.5591 0 m 127.5591 174 l S
+n 170.0787 0 m 170.0787 174 l S
+n 212.5984 0 m 212.5984 174 l S
+n 255.1181 0 m 255.1181 174 l S
+n 354.3307 0 m 354.3307 174 l S
+n 439.3701 0 m 439.3701 174 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 367.1969 cm
+Q
+q
+1 0 0 1 54.18898 347.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (3.3 Search traces) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 275.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 68 439.3701 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 439.3701 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Search) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Bucket) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Nodes examined) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (19 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 26 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 33 \(3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 14 \(2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (21) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 131.5591 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 14 \(2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Not found) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 68 m 439.3701 68 l S
+n 0 0 m 439.3701 0 l S
+n 0 0 m 0 68 l S
+n 439.3701 0 m 439.3701 68 l S
+n 0 51 m 439.3701 51 l S
+n 0 34 m 439.3701 34 l S
+n 0 17 m 439.3701 17 l S
+n 70.86614 0 m 70.86614 68 l S
+n 127.5591 0 m 127.5591 68 l S
+n 311.811 0 m 311.811 68 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 270.1969 cm
+Q
+q
+1 0 0 1 54.18898 250.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (3.4 Deletion and load factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 208.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Delete 26 from bucket 5 by unlinking its node and connecting 19 directly to 33. Delete 40 by removing the tail node. The final) Tj T* (chains are bucket 0: 7) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL (14; bucket 5: 19) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL (33; bucket 6: 13) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL (20; all other buckets are empty. Linked-list deletion changes only) Tj T* (the predecessor link and frees the removed node.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 166.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Load factor ) Tj /F4 8.7 Tf 12 TL (a) Tj /F1 8.7 Tf 12 TL ( = number of stored keys / table capacity = 8/7 = 1.143. Chaining permits ) Tj /F4 8.7 Tf 12 TL (a) Tj /F1 8.7 Tf 12 TL ( greater than 1, but long chains) Tj T* (increase search time. A poor hash function that maps many different keys to the same bucket can produce O\(n\) search even) Tj T* (when unused buckets remain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 146.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (3.6 C functions \226 separate chaining) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 59.69685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 76.2 Tm /F5 6.3 Tf 7.5 TL (typedef struct Node { int key; struct Node *next; } Node;) Tj T* (unsigned hashKey\(int key, unsigned m\) {) Tj T* (    int r = key % \(int\)m; return \(unsigned\)\(r < 0 ? r + \(int\)m : r\);) Tj T* (}) Tj T* (int search\(Node *tab[], unsigned m, int key\) {) Tj T* (    for \(Node *p=tab[hashKey\(key,m\)]; p; p=p->next\)) Tj T* (        if \(p->key == key\) return 1;) Tj T* (    return 0;) Tj T* (}) Tj T* (int insert\(Node *tab[], unsigned m, int key\) {) Tj T* (    unsigned i=hashKey\(key,m\);) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 5) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 1567
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 6) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 681.6969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 91.2 Tm /F5 6.3 Tf 7.5 TL (    if \(search\(tab,m,key\)\) return 0; /* duplicate */) Tj T* (    Node *p=malloc\(sizeof *p\); if \(!p\) return -1;) Tj T* (    p->key=key; p->next=NULL;) Tj T* (    if \(!tab[i]\) tab[i]=p;) Tj T* (    else { Node *q=tab[i]; while\(q->next\) q=q->next; q->next=p; }) Tj T* (    return 1;) Tj T* (}) Tj T* (int deleteKey\(Node *tab[], unsigned m, int key\) {) Tj T* (    unsigned i=hashKey\(key,m\); Node **p=&tab[i];) Tj T* (    while \(*p && \(*p\)->key!=key\) p=&\(*p\)->next;) Tj T* (    if \(!*p\) return 0;) Tj T* (    Node *old=*p; *p=old->next; free\(old\); return 1;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 651.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Boundary tests: search in an empty table returns not found; duplicate insertion returns 0; deleting a missing key returns 0;) Tj T* (deleting one colliding key leaves the other chain nodes searchable.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 6) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 13401
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 7) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 4 \226 OPEN ADDRESSING, LINEAR PROBING AND RESIZING \(5 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 745.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (Capacity m = 11; h\(k\) = k mod 11. Linear probing checks the next slot cyclically until an empty slot is found.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 587.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 153 425.1969 -17 re f*
+.933333 .94902 .964706 rg
+n 0 119 425.1969 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 425.1969 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 425.1969 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 425.1969 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Home slot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Probe sequence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 140 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Inserted slot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0, 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (44) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0, 1, 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4, 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4, 5, 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (48) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4, 5, 6, 7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 55.02362 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4, 5, 6, 7, 8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.8189 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (8) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 153 m 425.1969 153 l S
+n 0 0 m 425.1969 0 l S
+n 0 0 m 0 153 l S
+n 425.1969 0 m 425.1969 153 l S
+n 0 136 m 425.1969 136 l S
+n 0 119 m 425.1969 119 l S
+n 0 102 m 425.1969 102 l S
+n 0 85 m 425.1969 85 l S
+n 0 68 m 425.1969 68 l S
+n 0 51 m 425.1969 51 l S
+n 0 34 m 425.1969 34 l S
+n 0 17 m 425.1969 17 l S
+n 51.02362 0 m 51.02362 153 l S
+n 113.3858 0 m 113.3858 153 l S
+n 328.8189 0 m 328.8189 153 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 582.1969 cm
+Q
+q
+1 0 0 1 54.18898 562.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4.2 Final table and search) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 524.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 34 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Index) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.18898 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.8898 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.7402 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4409 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 273.2913 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 383.8425 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 420.6929 21 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.18898 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.8898 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (44) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.7402 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (EMPTY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 199.5906 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4409 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 273.2913 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (48) Tj T* ET
+Q
+Q
+q
+1 0 0 1 346.9921 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 383.8425 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (EMPTY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 420.6929 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (EMPTY) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 34 m 453.5433 34 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 34 l S
+n 453.5433 0 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 48.18898 0 m 48.18898 34 l S
+n 85.03937 0 m 85.03937 34 l S
+n 121.8898 0 m 121.8898 34 l S
+n 158.7402 0 m 158.7402 34 l S
+n 195.5906 0 m 195.5906 34 l S
+n 232.4409 0 m 232.4409 34 l S
+n 269.2913 0 m 269.2913 34 l S
+n 306.1417 0 m 306.1417 34 l S
+n 342.9921 0 m 342.9921 34 l S
+n 379.8425 0 m 379.8425 34 l S
+n 416.6929 0 m 416.6929 34 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 519.1969 cm
+Q
+q
+1 0 0 1 54.18898 442.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 77 439.3701 -17 re f*
+.933333 .94902 .964706 rg
+n 0 43 439.3701 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 64 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Search) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 64 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Slots examined) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 64 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 64 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (44) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 1 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 5 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 6 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 7 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (99) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 1 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 2 ) Tj /F4 7.2 Tf 9 TL (\256) Tj /F1 7.2 Tf 9 TL ( 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.1181 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Not found at first never-used empty) Tj T* (slot) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 77 m 439.3701 77 l S
+n 0 0 m 439.3701 0 l S
+n 0 0 m 0 77 l S
+n 439.3701 0 m 439.3701 77 l S
+n 0 60 m 439.3701 60 l S
+n 0 43 m 439.3701 43 l S
+n 0 26 m 439.3701 26 l S
+n 70.86614 0 m 70.86614 77 l S
+n 255.1181 0 m 255.1181 77 l S
+n 311.811 0 m 311.811 77 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 437.1969 cm
+Q
+q
+1 0 0 1 54.18898 417.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4.3 Tombstone deletion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 375.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Delete key 33 at slot 1 by marking the slot DELETED, not EMPTY. A search for 44 starts at slot 0 and must continue through) Tj T* (slot 1 to slot 2. If slot 1 were changed to never-used EMPTY, the search would stop there and incorrectly report 44 as missing.) Tj T* (During insertion, a tombstone can be reused after checking that the key is not already present later in the probe sequence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 355.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4.4 Clustering and probing methods) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 301.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL (Primary clustering occurs when contiguous occupied runs grow; new keys that hash into a run tend to extend it. Quadratic) Tj T* (probing uses offsets such as 1\262, 2\262, 3\262 to reduce primary clustering, but may not visit every slot for all capacities. Double) Tj T* (hashing uses a second hash function to choose the step size and generally distributes probe sequences better, provided the) Tj T* (step is relatively prime to table capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 281.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4.5 Capacity and rehashing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 239.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL -0.041839 Tw (Required capacity ) Tj /F4 8.7 Tf 12 TL (\263) Tj /F1 8.7 Tf 12 TL ( 10,000 / 0.65 = 15,384.615, therefore minimum integer capacity is 15,385. A practical implementation may) Tj T* 0 Tw (select the next suitable prime, 15,391, to reduce regular modulo patterns. Rehashing allocates a larger table and reinserts) Tj T* (every live key using the new capacity; old slot positions cannot simply be copied.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 219.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4.6 Linear-probing pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 102.6969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 106.2 Tm /F5 6.3 Tf 7.5 TL (INSERT\(k\):) Tj T* (  if key already exists: reject duplicate) Tj T* (  remember first DELETED slot) Tj T* (  probe from h\(k\) until EMPTY or all slots checked) Tj T* (  insert at first DELETED \(if remembered\), otherwise EMPTY) Tj T* (  if no slot exists: report full table) Tj T*  T* (SEARCH\(k\):) Tj T* (  probe from h\(k\)) Tj T* (  stop and fail at EMPTY) Tj T* (  continue through DELETED) Tj T* (  return success when matching key is found) Tj T*  T* (DELETE\(k\):) Tj T* (  locate k using SEARCH; if found mark slot DELETED) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 72.69685 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL -0.102914 Tw (Tests: duplicate key rejected; full table reports overflow; a deleted slot is reusable; searching across a tombstone still finds later) Tj T* 0 Tw (colliding keys.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 7) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 12470
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 8) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 5 \226 PRIORITY QUEUE AND BINARY HEAP \(4 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 733.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (The min-heap comparator orders jobs by \(priority, arrival sequence\). Lower priority number wins; when priorities tie, lower) Tj T* (arrival sequence wins.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 609.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 119 396.8504 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 396.8504 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 396.8504 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 396.8504 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Job) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Priority) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Arrival sequence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J106) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.3858 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.9449 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 119 m 396.8504 119 l S
+n 0 0 m 396.8504 0 l S
+n 0 0 m 0 119 l S
+n 396.8504 0 m 396.8504 119 l S
+n 0 102 m 396.8504 102 l S
+n 0 85 m 396.8504 85 l S
+n 0 68 m 396.8504 68 l S
+n 0 51 m 396.8504 51 l S
+n 0 34 m 396.8504 34 l S
+n 0 17 m 396.8504 17 l S
+n 113.3858 0 m 113.3858 119 l S
+n 240.9449 0 m 240.9449 119 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 604.1969 cm
+Q
+q
+1 0 0 1 54.18898 584.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (5.1 Insertions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 452.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 128 467.7165 -17 re f*
+.933333 .94902 .964706 rg
+n 0 94 467.7165 -17 re f*
+.933333 .94902 .964706 rg
+n 0 60 467.7165 -26 re f*
+.933333 .94902 .964706 rg
+n 0 17 467.7165 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 115 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Inserted) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 115 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Heap array after insertion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 115 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Swaps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (None) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102, J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102 ) Tj /F4 7.2 Tf 9 TL (\253) Tj /F1 7.2 Tf 9 TL ( J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 64 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 64 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102, J101, J103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 64 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (None) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102, J104, J103, J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (J104 ) Tj /F4 7.2 Tf 9 TL (\253) Tj /F1 7.2 Tf 9 TL ( J101; it does not pass older J102 at) Tj T* (equal priority) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102, J104, J103, J101, J105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (None) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J106) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.86614 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J102, J104, J103, J101, J105, J106) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.811 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (None) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 128 m 467.7165 128 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 128 l S
+n 467.7165 0 m 467.7165 128 l S
+n 0 111 m 467.7165 111 l S
+n 0 94 m 467.7165 94 l S
+n 0 77 m 467.7165 77 l S
+n 0 60 m 467.7165 60 l S
+n 0 34 m 467.7165 34 l S
+n 0 17 m 467.7165 17 l S
+n 70.86614 0 m 70.86614 128 l S
+n 311.811 0 m 311.811 128 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 447.1969 cm
+Q
+q
+1 0 0 1 54.18898 417.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Final heap tree: root J102; children J104 and J103; J104 has children J101 and J105; J103 has child J106. Every parent is no) Tj T* (greater than its children under the \(priority, arrival\) comparator.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 397.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (5.2 Three delete-min operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 325.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 68 467.7165 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 467.7165 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Operation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 80.53543 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Replacement / heapify) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Heap after operation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Remove J102) Tj T* ET
+Q
+Q
+q
+1 0 0 1 80.53543 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Move J106 to root; compare J104\(1,4\) and J103\(2,3\); swap with J104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J104, J106, J103, J101, J105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Remove J104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 80.53543 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Move J105 to root; compare J106\(2,6\), J103\(2,3\); swap with J103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J103, J106, J105, J101) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Remove J103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 80.53543 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Move J101 to root; compare J106\(2,6\), J105\(4,5\); swap with J106) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (J106, J101, J105) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 68 m 467.7165 68 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 68 l S
+n 467.7165 0 m 467.7165 68 l S
+n 0 51 m 467.7165 51 l S
+n 0 34 m 467.7165 34 l S
+n 0 17 m 467.7165 17 l S
+n 76.53543 0 m 76.53543 68 l S
+n 323.1496 0 m 323.1496 68 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 320.1969 cm
+Q
+q
+1 0 0 1 54.18898 278.1969 cm
+q
+BT 1 0 0 1 0 27.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Processing order:) Tj /F1 8.7 Tf ( J102 ) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL ( J104 ) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL ( J103 ) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL ( J106 ) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL ( J101 ) Tj /F4 8.7 Tf 12 TL (\256) Tj /F1 8.7 Tf 12 TL ( J105. The first three extracted jobs are therefore J102, J104 and) Tj T* (J103. J102 precedes J104 because both have priority 1 but J102 arrived first; J103 precedes J106 because both have priority) Tj T* (2 but J103 arrived first.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 258.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (5.4 Heap operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 209.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 38.7 Tm /F5 6.3 Tf 7.5 TL (less\(a,b\) = \(a.priority < b.priority\) ||) Tj T* (            \(a.priority == b.priority && a.arrival < b.arrival\)) Tj T* (INSERT\(job\): append; while job < parent, swap upward.) Tj T* (PEEK\(\): return root if size > 0, otherwise EMPTY.) Tj T* (EXTRACT_MIN\(\): save root; move last item to root; shrink;) Tj T* (               repeatedly swap with smaller child; return saved root.) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 189.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (5.5 Structure comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 117.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 68 442.2047 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 442.2047 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.0551 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Insert) Tj T* ET
+Q
+Q
+q
+1 0 0 1 230.7717 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Peek-min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 338.4882 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Extract-min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Binary min-heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.0551 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 230.7717 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 338.4882 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Unsorted array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.0551 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 230.7717 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 338.4882 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sorted array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.0551 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 230.7717 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 338.4882 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 68 m 442.2047 68 l S
+n 0 0 m 442.2047 0 l S
+n 0 0 m 0 68 l S
+n 442.2047 0 m 442.2047 68 l S
+n 0 51 m 442.2047 51 l S
+n 0 34 m 442.2047 34 l S
+n 0 17 m 442.2047 17 l S
+n 119.0551 0 m 119.0551 68 l S
+n 226.7717 0 m 226.7717 68 l S
+n 334.4882 0 m 334.4882 68 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 112.1969 cm
+Q
+q
+1 0 0 1 54.18898 82.19685 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (A binary min-heap is recommended for a continuous job stream because it balances insertion and removal at O\(log n\), while) Tj T* (exposing the next job in O\(1\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 8) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 36 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 9444
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 412.603 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 9) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 6 \226 INSERTION SORT AND QUICK SORT \(5 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 745.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (Input array: [29, 10, 14, 37, 13, 5, 22].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 725.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (6.1 Insertion sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 602.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 119 442.2047 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 442.2047 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 442.2047 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 442.2047 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Pass) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Array after pass) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Comparisons / shifts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10, 29, 14, 37, 13, 5, 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1 / 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10, 14, 29, 37, 13, 5, 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2 / 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10, 14, 29, 37, 13, 5, 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1 / 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10, 13, 14, 29, 37, 5, 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4 / 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5, 10, 13, 14, 29, 37, 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5 / 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.54331 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5, 10, 13, 14, 22, 29, 37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 329.9843 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4 / 2) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 119 m 442.2047 119 l S
+n 0 0 m 442.2047 0 l S
+n 0 0 m 0 119 l S
+n 442.2047 0 m 442.2047 119 l S
+n 0 102 m 442.2047 102 l S
+n 0 85 m 442.2047 85 l S
+n 0 68 m 442.2047 68 l S
+n 0 51 m 442.2047 51 l S
+n 0 34 m 442.2047 34 l S
+n 0 17 m 442.2047 17 l S
+n 42.51969 0 m 42.51969 119 l S
+n 93.54331 0 m 93.54331 119 l S
+n 325.9843 0 m 325.9843 119 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 597.1969 cm
+Q
+q
+1 0 0 1 54.18898 567.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Insertion sort maintains a sorted prefix. It is efficient for small or nearly sorted arrays because few elements need shifting. Best) Tj T* (O\(n\), average and worst O\(n\262\), auxiliary space O\(1\), stable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 547.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (6.2 Quick sort \226 Lomuto partition, last element pivot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 517.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (The partition procedure moves values ) Tj /F4 8.7 Tf 12 TL (\243) Tj /F1 8.7 Tf 12 TL ( pivot to the left and places the pivot at its final index. The recursive subarrays are then) Tj T* (processed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 410.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 102 464.8819 -17 re f*
+.933333 .94902 .964706 rg
+n 0 68 464.8819 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 464.8819 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Partition input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Pivot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Array after partition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Pivot index) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([29,10,14,37,13,5,22]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([10,14,13,5,22,37,29]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([10,14,13,5]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([5,14,13,10,22,37,29]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([14,13,10]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([5,10,13,14,22,37,29]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([13,14]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([5,10,13,14,22,37,29]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([37,29]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 137.2283 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (29) Tj T* ET
+Q
+Q
+q
+1 0 0 1 185.4173 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([5,10,13,14,22,29,37]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 417.8583 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 102 m 464.8819 102 l S
+n 0 0 m 464.8819 0 l S
+n 0 0 m 0 102 l S
+n 464.8819 0 m 464.8819 102 l S
+n 0 85 m 464.8819 85 l S
+n 0 68 m 464.8819 68 l S
+n 0 51 m 464.8819 51 l S
+n 0 34 m 464.8819 34 l S
+n 0 17 m 464.8819 17 l S
+n 133.2283 0 m 133.2283 102 l S
+n 181.4173 0 m 181.4173 102 l S
+n 413.8583 0 m 413.8583 102 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 405.1969 cm
+Q
+q
+1 0 0 1 54.18898 375.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Sorted result: [5, 10, 13, 14, 22, 29, 37]. Balanced partitions give O\(n log n\); consistently poor pivots give O\(n\262\). Average) Tj T* (recursion stack is O\(log n\), worst O\(n\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 355.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (6.3 C implementation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 253.6969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 91.2 Tm /F5 6.3 Tf 7.5 TL (void swap\(int *a,int *b\){ int t=*a; *a=*b; *b=t; }) Tj T* (int partition\(int a[],int low,int high\){) Tj T* (    int pivot=a[high], i=low-1;) Tj T* (    for\(int j=low;j<high;j++\)) Tj T* (        if\(a[j]<=pivot\) swap\(&a[++i],&a[j]\);) Tj T* (    swap\(&a[i+1],&a[high]\); return i+1;) Tj T* (}) Tj T* (void quickSort\(int a[],int low,int high\){) Tj T* (    if\(low<high\){) Tj T* (        int p=partition\(a,low,high\);) Tj T* (        quickSort\(a,low,p-1\); quickSort\(a,p+1,high\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 223.6969 cm
+q
+BT 1 0 0 1 0 15.3 Tm 12 TL /F1 8.7 Tf 0 0 0 rg (Arrays of size zero or one require no action because the base condition low < high is false. The ) Tj /F4 8.7 Tf 12 TL (\243) Tj /F1 8.7 Tf 12 TL ( comparison handles) Tj T* (duplicate values correctly, although many equal keys can lead to unbalanced partitions.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 464.104 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 9) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 39 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 6326
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 10) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 7 \226 MERGE SORT AND RADIX SORT \(5 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 743.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (7.1 Merge sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 725.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (Input: [38, 12, 27, 43, 9, 31, 18, 25]. Split recursively into single-element arrays, then merge adjacent sorted arrays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 601.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 119 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 459.2126 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Stage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Subarrays / merge result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Split 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([38,12,27,43] | [9,31,18,25]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Split 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([38,12] [27,43] | [9,31] [18,25]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Split 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([38] [12] [27] [43] | [9] [31] [18] [25]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Merge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([12,38] [27,43] | [9,31] [18,25]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Merge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([12,27,38,43] | [9,18,25,31]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Final merge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.37008 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([9,12,18,25,27,31,38,43]) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 119 m 459.2126 119 l S
+n 0 0 m 459.2126 0 l S
+n 0 0 m 0 119 l S
+n 459.2126 0 m 459.2126 119 l S
+n 0 102 m 459.2126 102 l S
+n 0 85 m 459.2126 85 l S
+n 0 68 m 459.2126 68 l S
+n 0 51 m 459.2126 51 l S
+n 0 34 m 459.2126 34 l S
+n 0 17 m 459.2126 17 l S
+n 79.37008 0 m 79.37008 119 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 596.1969 cm
+Q
+q
+1 0 0 1 54.18898 566.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Merge sort is stable when equal elements from the left run are selected first. Its array implementation needs O\(n\) auxiliary) Tj T* (memory for merging. Best, average and worst time are O\(n log n\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 546.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (C merge-sort functions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 437.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 98.7 Tm /F5 6.3 Tf 7.5 TL (void merge\(int a[],int tmp[],int l,int mid,int r\){) Tj T* (    int i=l,j=mid+1,k=l;) Tj T* (    while\(i<=mid && j<=r\)) Tj T* (        tmp[k++]=\(a[i]<=a[j]\)?a[i++]:a[j++];) Tj T* (    while\(i<=mid\) tmp[k++]=a[i++];) Tj T* (    while\(j<=r\) tmp[k++]=a[j++];) Tj T* (    for\(i=l;i<=r;i++\) a[i]=tmp[i];) Tj T* (}) Tj T* (void mergeSort\(int a[],int tmp[],int l,int r\){) Tj T* (    if\(l>=r\) return;) Tj T* (    int m=l+\(r-l\)/2;) Tj T* (    mergeSort\(a,tmp,l,m\); mergeSort\(a,tmp,m+1,r\);) Tj T* (    merge\(a,tmp,l,m,r\);) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 417.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (7.2 LSD radix sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 399.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (Input: [170, 45, 75, 90, 802, 24, 2, 66]. Stable digit passes are applied from ones to tens to hundreds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 326.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 68 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 459.2126 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Pass) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Stable output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Ones digit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([170, 90, 802, 2, 24, 45, 75, 66]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Tens digit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([802, 2, 24, 45, 66, 170, 75, 90]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Hundreds digit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL ([2, 24, 45, 66, 75, 90, 170, 802]) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 68 m 459.2126 68 l S
+n 0 0 m 459.2126 0 l S
+n 0 0 m 0 68 l S
+n 459.2126 0 m 459.2126 68 l S
+n 0 51 m 459.2126 51 l S
+n 0 34 m 459.2126 34 l S
+n 0 17 m 459.2126 17 l S
+n 99.2126 0 m 99.2126 68 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 321.1969 cm
+Q
+q
+1 0 0 1 54.18898 279.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Each digit pass must be stable so the ordering established by less-significant digits is preserved when a more-significant digit) Tj T* (is processed. For n values, d digits and radix/base b, time is O\(d\(n+b\)\) and auxiliary space is O\(n+b\). This example assumes) Tj T* (non-negative integers and a fixed decimal base of 10. Signed values require an additional sign-handling strategy.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 10) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+39 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 8858
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 11) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 8 \226 HEAP SORT AND SORTING COMPARISON \(4 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 733.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Input: [16, 4, 10, 14, 7, 9, 3, 2, 8, 1]. Build a max-heap, then repeatedly exchange the root with the last active element and) Tj T* (heapify the reduced heap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 524.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 204 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 170 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 136 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 102 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 68 459.2126 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 459.2126 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 191 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Stage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 191 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Array state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Initial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (16, 4, 10, 14, 7, 9, 3, 2, 8, 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Max heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (16, 14, 10, 8, 7, 9, 3, 2, 4, 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (14, 8, 10, 4, 7, 9, 3, 2, 1, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10, 8, 9, 4, 7, 2, 3, 1, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (9, 8, 3, 4, 7, 2, 1, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (8, 7, 3, 4, 1, 2, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7, 4, 3, 2, 1, 8, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4, 2, 3, 1, 7, 8, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3, 2, 1, 4, 7, 8, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Extract 8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2, 1, 3, 4, 7, 8, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Final) Tj T* ET
+Q
+Q
+q
+1 0 0 1 89.03937 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1, 2, 3, 4, 7, 8, 9, 10, 14, 16) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 204 m 459.2126 204 l S
+n 0 0 m 459.2126 0 l S
+n 0 0 m 0 204 l S
+n 459.2126 0 m 459.2126 204 l S
+n 0 187 m 459.2126 187 l S
+n 0 170 m 459.2126 170 l S
+n 0 153 m 459.2126 153 l S
+n 0 136 m 459.2126 136 l S
+n 0 119 m 459.2126 119 l S
+n 0 102 m 459.2126 102 l S
+n 0 85 m 459.2126 85 l S
+n 0 68 m 459.2126 68 l S
+n 0 51 m 459.2126 51 l S
+n 0 34 m 459.2126 34 l S
+n 0 17 m 459.2126 17 l S
+n 85.03937 0 m 85.03937 204 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 519.1969 cm
+Q
+q
+1 0 0 1 54.18898 501.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (For zero-based array indexing, parent\(i\) = \(i) Tj /F4 8.7 Tf 12 TL (-) Tj /F1 8.7 Tf 12 TL (1\)//2, left\(i\) = 2i+1 and right\(i\) = 2i+2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 481.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (C heap-sort functions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 364.6969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 106.2 Tm /F5 6.3 Tf 7.5 TL (void heapify\(int a[],int n,int i\){) Tj T* (    int largest=i, l=2*i+1, r=2*i+2;) Tj T* (    if\(l<n && a[l]>a[largest]\) largest=l;) Tj T* (    if\(r<n && a[r]>a[largest]\) largest=r;) Tj T* (    if\(largest!=i\){ swap\(&a[i],&a[largest]\); heapify\(a,n,largest\); }) Tj T* (}) Tj T* (void buildMaxHeap\(int a[],int n\){) Tj T* (    for\(int i=n/2-1;i>=0;i--\) heapify\(a,n,i\);) Tj T* (}) Tj T* (void heapSort\(int a[],int n\){) Tj T* (    buildMaxHeap\(a,n\);) Tj T* (    for\(int i=n-1;i>0;i--\){) Tj T* (        swap\(&a[0],&a[i]\); heapify\(a,i,0\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 344.6969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (8.3 Comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 238.6969 cm
+q
+.121569 .305882 .47451 rg
+n 0 102 515.9055 -17 re f*
+.933333 .94902 .964706 rg
+n 0 68 515.9055 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 515.9055 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Property) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Heap sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Quick sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 89 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Merge sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Worst time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Average time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Auxiliary memory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\) iterative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(log n\) average stack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Stable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Usually no) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Yes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Practical note) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Guaranteed bound, in-place) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242.1102 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Often fast in-memory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 381.0079 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predictable and stable) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 102 m 515.9055 102 l S
+n 0 0 m 515.9055 0 l S
+n 0 0 m 0 102 l S
+n 515.9055 0 m 515.9055 102 l S
+n 0 85 m 515.9055 85 l S
+n 0 68 m 515.9055 68 l S
+n 0 51 m 515.9055 51 l S
+n 0 34 m 515.9055 34 l S
+n 0 17 m 515.9055 17 l S
+n 99.2126 0 m 99.2126 102 l S
+n 238.1102 0 m 238.1102 102 l S
+n 377.0079 0 m 377.0079 102 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 233.6969 cm
+Q
+q
+1 0 0 1 54.18898 203.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (Choose heap sort for guaranteed O\(n log n\) with low extra memory, merge sort when stability is required, and quick sort for) Tj T* (typical fast in-memory sorting when a robust pivot strategy and recursion safeguards are used.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 11) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 7174
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 12) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 9 \226 PARALLEL SORTING TECHNIQUES \(5 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 743.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (9.1 Multi-threaded CPU sorting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 701.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (For 8,000,000 integers, divide the array into four contiguous chunks of 2,000,000 values. Create four worker threads; each) Tj T* (sorts its own chunk. The main thread joins all workers and performs a multiway merge \(or two pairwise merge rounds\) into the) Tj T* (final sorted array.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.6969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 46.2 Tm /F5 6.3 Tf 7.5 TL (chunk = N / 4) Tj T* (for t = 0..3:) Tj T* (    start = t * chunk) Tj T* (    end = \(t == 3\) ? N : start + chunk) Tj T* (    pthread_create\(&thread[t], sort_chunk, {array,start,end}\)) Tj T* (for t = 0..3: pthread_join\(thread[t]\)) Tj T* (merge the four sorted ranges into output) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 601.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Each worker writes to a disjoint array range, reducing data races. Shared read access is safe while no thread modifies the) Tj T* (same elements. Thread creation/joining and merging add overhead. Synchronization is required before merging so all chunks) Tj T* (are fully sorted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 581.6969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (9.2 MapReduce sorting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 492.6969 cm
+q
+.121569 .305882 .47451 rg
+n 0 85 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 470.5512 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 72 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Stage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 111.7165 72 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Map) Tj T* ET
+Q
+Q
+q
+1 0 0 1 111.7165 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Read input records and emit \(key, record\) pairs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Shuffle / Partition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 111.7165 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Route keys to workers using range boundaries or partition function.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 111.7165 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Each worker sorts its assigned partition locally.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Reduce) Tj T* ET
+Q
+Q
+q
+1 0 0 1 111.7165 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Concatenate partitions in key-range order or merge their sorted runs.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 85 m 470.5512 85 l S
+n 0 0 m 470.5512 0 l S
+n 0 0 m 0 85 l S
+n 470.5512 0 m 470.5512 85 l S
+n 0 68 m 470.5512 68 l S
+n 0 51 m 470.5512 51 l S
+n 0 34 m 470.5512 34 l S
+n 0 17 m 470.5512 17 l S
+n 107.7165 0 m 107.7165 85 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 487.6969 cm
+Q
+q
+1 0 0 1 54.18898 445.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Range partitioning assigns low, medium and high key ranges to workers. If the data distribution is skewed, one range may) Tj T* (contain most records, leaving one worker overloaded while others finish early. Sampling keys and choosing balanced split) Tj T* (points can reduce skew.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 425.6969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (9.3 GPU sorting with CUDA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 371.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL (The CPU host allocates and prepares the input, copies it from host memory to GPU device memory, launches a sorting kernel,) Tj T* (synchronizes as required and copies the result back. A GPU-friendly bitonic or radix sort distributes work across thread blocks.) Tj T* -0.063077 Tw (Threads within a block can synchronize using block-level barriers; ordinary CUDA blocks cannot generally synchronize globally) Tj T* 0 Tw (inside a normal kernel launch. Multi-stage kernels or cooperative launch mechanisms are used for global phases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 271.6969 cm
+q
+.121569 .305882 .47451 rg
+n 0 95 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 52 470.5512 -26 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 82 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Approach) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 82 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Strength) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276.126 82 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Overhead / limitation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 65 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (CPU threads) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 56 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Shared memory, suitable for medium/large arrays on) Tj T* (multicore CPU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276.126 65 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Thread scheduling, memory bandwidth and final merge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (MapReduce) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Scales across machines and very large distributed) Tj T* (data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276.126 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Network shuffle, serialization and skew) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (GPU CUDA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 94.70866 13 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (High throughput for parallel-friendly workloads) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276.126 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 10.8 Tm /F1 7.2 Tf 9 TL (Host/device transfer, kernel launch, device memory and) Tj T* (implementation complexity) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 95 m 470.5512 95 l S
+n 0 0 m 470.5512 0 l S
+n 0 0 m 0 95 l S
+n 470.5512 0 m 470.5512 95 l S
+n 0 78 m 470.5512 78 l S
+n 0 52 m 470.5512 52 l S
+n 0 26 m 470.5512 26 l S
+n 90.70866 0 m 90.70866 95 l S
+n 272.126 0 m 272.126 95 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 266.6969 cm
+Q
+q
+1 0 0 1 54.18898 236.6969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (No CUDA or multi-machine execution is claimed in this report. The above is an architecture-level design; actual speedup) Tj T* (depends on hardware, data size, key distribution and transfer costs.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 12) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/Contents 47 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 48 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+47 0 obj
+<<
+/Length 8341
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 13) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 10 \226 TIME AND SPACE COMPLEXITY ANALYSIS \(4 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 638.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 119 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 470.5512 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 470.5512 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Algorithm / structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Best) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Average) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Worst) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 106 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Auxiliary space) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Hash lookup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Expected O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Depends on collision method) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Quick sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\262\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Recursion stack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Merge sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Radix sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(d\(n+b\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n+b\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Heap sort) Tj T* ET
+Q
+Q
+q
+1 0 0 1 100.378 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174.0787 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 253.4488 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 327.1496 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (O\(1\) iterative) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 119 m 470.5512 119 l S
+n 0 0 m 470.5512 0 l S
+n 0 0 m 0 119 l S
+n 470.5512 0 m 470.5512 119 l S
+n 0 102 m 470.5512 102 l S
+n 0 85 m 470.5512 85 l S
+n 0 68 m 470.5512 68 l S
+n 0 51 m 470.5512 51 l S
+n 0 34 m 470.5512 34 l S
+n 0 17 m 470.5512 17 l S
+n 96.37795 0 m 96.37795 119 l S
+n 170.0787 0 m 170.0787 119 l S
+n 249.4488 0 m 249.4488 119 l S
+n 323.1496 0 m 323.1496 119 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 633.1969 cm
+Q
+q
+1 0 0 1 54.18898 613.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (10.2 Growth calculations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 558.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 51 510.2362 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 510.2362 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 38 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 38 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 202.4252 38 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (n log) Tj /F6 7.3 Tf 9 TL (n) Tj /F2 7.3 Tf 9 TL (n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 38 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (n\262) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 202.4252 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (9,966 \(approx.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,000,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (100,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 103.2126 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (100,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 202.4252 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,660,964 \(approx.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 358.3307 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10,000,000,000) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 51 m 510.2362 51 l S
+n 0 0 m 510.2362 0 l S
+n 0 0 m 0 51 l S
+n 510.2362 0 m 510.2362 51 l S
+n 0 34 m 510.2362 34 l S
+n 0 17 m 510.2362 17 l S
+n 99.2126 0 m 99.2126 51 l S
+n 198.4252 0 m 198.4252 51 l S
+n 354.3307 0 m 354.3307 51 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 553.1969 cm
+Q
+q
+1 0 0 1 54.18898 523.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL (When n increases from 1,000 to 100,000 \(100 times\), linear work grows 100 times, n log) Tj /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL (n grows about 166.7 times, and) Tj T* (quadratic work grows 10,000 times. Thus O\(n log n\) remains practical much longer than O\(n\262\) for large datasets.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 503.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (10.3 Raw storage and merge-sort memory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 461.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (8,000,000 integers \327 4 bytes = 32,000,000 bytes = 32 MB \(approximately 30.52 MiB\). A merge-sort temporary integer array of) Tj T* (the same length requires another 32 MB. This excludes the original array, allocator metadata, thread stacks, program/runtime) Tj T* (memory and any output buffers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 441.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (10.4 Why Big-O does not determine wall-clock time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 387.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL (Big-O describes growth rate, not exact elapsed time. Constant factors, cache locality, allocation cost, branch prediction,) Tj T* (compiler optimization, CPU frequency, thread scheduling, synchronization and input distribution all affect runtime. For) Tj T* (example, quick sort may be faster than merge sort for some in-memory inputs despite its O\(n\262\) worst case, while merge sort) Tj T* (provides a stronger worst-case guarantee and stability.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 13) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+48 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+49 0 obj
+<<
+/Contents 50 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 51 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 4684
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 14) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 763.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (TASK 11 \226 IMPLEMENT AND TEST CORE MODULES IN C \(4 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 721.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (The following compact C11 prototype demonstrates the three required modules: a linear-probing hash index, a stable) Tj T* -0.06131 Tw (min-heap priority queue and insertion/quick sorting. It is intended as a core-module implementation; compile with the command) Tj T* 0 Tw (shown and extend the menu/interface if a fully interactive menu is required by the instructor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 56.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 653.7 Tm /F5 6.3 Tf 7.5 TL (#include <stdio.h>) Tj T* (#include <stdlib.h>) Tj T* (#define M 101) Tj T* (#define CAP 100) Tj T* (#define EMPTY 0) Tj T* (#define USED 1) Tj T* (#define DELETED 2) Tj T*  T* (typedef struct { int key, state; } Slot;) Tj T* (typedef struct { int id, priority, seq; } Job;) Tj T* (static Slot ht[M];) Tj T* (static Job heap[CAP];) Tj T* (static int hn=0, nextSeq=0;) Tj T*  T* (static unsigned hash\(int k\){ int r=k%M; return \(unsigned\)\(r<0?r+M:r\); }) Tj T* (int hsearch\(int k\){) Tj T* (    unsigned i=hash\(k\);) Tj T* (    for\(int c=0;c<M;c++,i=\(i+1\)%M\){) Tj T* (        if\(ht[i].state==EMPTY\) return -1;) Tj T* (        if\(ht[i].state==USED && ht[i].key==k\) return \(int\)i;) Tj T* (    }) Tj T* (    return -1;) Tj T* (}) Tj T* (int hinsert\(int k\){) Tj T* (    if\(hsearch\(k\)>=0\) return 0;) Tj T* (    unsigned i=hash\(k\), tomb=M;) Tj T* (    for\(int c=0;c<M;c++,i=\(i+1\)%M\){) Tj T* (        if\(ht[i].state==DELETED && tomb==M\) tomb=i;) Tj T* (        if\(ht[i].state==EMPTY\){) Tj T* (            if\(tomb!=M\) i=tomb;) Tj T* (            ht[i].key=k; ht[i].state=USED; return 1;) Tj T* (        }) Tj T* (    }) Tj T* (    if\(tomb!=M\){ ht[tomb].key=k; ht[tomb].state=USED; return 1; }) Tj T* (    return -1;) Tj T* (}) Tj T* (int hdelete\(int k\){) Tj T* (    int i=hsearch\(k\); if\(i<0\) return 0;) Tj T* (    ht[i].state=DELETED; return 1;) Tj T* (}) Tj T* (int before\(Job a,Job b\){) Tj T* (    return a.priority<b.priority ||) Tj T* (          \(a.priority==b.priority && a.seq<b.seq\);) Tj T* (}) Tj T* (void push\(Job x\){) Tj T* (    if\(hn==CAP\) return;) Tj T* (    int i=hn++; heap[i]=x;) Tj T* (    while\(i>0\){) Tj T* (        int p=\(i-1\)/2; if\(!before\(heap[i],heap[p]\)\) break;) Tj T* (        Job t=heap[i]; heap[i]=heap[p]; heap[p]=t; i=p;) Tj T* (    }) Tj T* (}) Tj T* (int pop\(Job *out\){) Tj T* (    if\(hn==0\) return 0;) Tj T* (    *out=heap[0]; heap[0]=heap[--hn];) Tj T* (    int i=0;) Tj T* (    for\(;;\){) Tj T* (        int l=2*i+1,r=l+1,s=i;) Tj T* (        if\(l<hn && before\(heap[l],heap[s]\)\) s=l;) Tj T* (        if\(r<hn && before\(heap[r],heap[s]\)\) s=r;) Tj T* (        if\(s==i\) break;) Tj T* (        Job t=heap[i]; heap[i]=heap[s]; heap[s]=t; i=s;) Tj T* (    }) Tj T* (    return 1;) Tj T* (}) Tj T* (void insertionSort\(int a[],int n\){) Tj T* (    for\(int i=1;i<n;i++\){) Tj T* (        int key=a[i],j=i-1;) Tj T* (        while\(j>=0 && a[j]>key\){ a[j+1]=a[j]; j--; }) Tj T* (        a[j+1]=key;) Tj T* (    }) Tj T* (}) Tj T* (void swapInt\(int *a,int *b\){int t=*a;*a=*b;*b=t;}) Tj T* (int part\(int a[],int lo,int hi\){) Tj T* (    int p=a[hi],i=lo-1;) Tj T* (    for\(int j=lo;j<hi;j++\) if\(a[j]<=p\) swapInt\(&a[++i],&a[j]\);) Tj T* (    swapInt\(&a[i+1],&a[hi]\); return i+1;) Tj T* (}) Tj T* (void quickSort\(int a[],int lo,int hi\){) Tj T* (    if\(lo<hi\){int p=part\(a,lo,hi\);quickSort\(a,lo,p-1\);quickSort\(a,p+1,hi\);}) Tj T* (}) Tj T* (int main\(void\){) Tj T* (    int a[]={29,10,14,37,13,5,22}, n=7;) Tj T* (    hinsert\(22\); hinsert\(33\); hinsert\(44\);) Tj T* (    printf\("Hash search 33: %s\\\\n",hsearch\(33\)>=0?"Found":"Not found"\);) Tj T* (    hdelete\(33\); printf\("Hash search 33 after delete: %s\\\\n",) Tj T* (        hsearch\(33\)>=0?"Found":"Not found"\);) Tj T* (    Job j1={101,3,nextSeq++},j2={102,1,nextSeq++},j3={103,2,nextSeq++};) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 14) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+51 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+52 0 obj
+<<
+/Contents 53 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 54 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 8008
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 15) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 719.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 53.7 Tm /F5 6.3 Tf 7.5 TL (    push\(j1\);push\(j2\);push\(j3\);) Tj T* (    Job x; while\(pop\(&x\)\) printf\("Job %d priority %d\\\\n",x.id,x.priority\);) Tj T* (    insertionSort\(a,n\);) Tj T* (    printf\("Insertion sorted: "\);) Tj T* (    for\(int i=0;i<n;i++\) printf\("%d ",a[i]\);) Tj T* (    printf\("\\\\n"\);) Tj T* (    return 0;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 701.1969 cm
+q
+BT 1 0 0 1 0 3.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Build command:) Tj /F1 8.7 Tf ( gcc -std=c11 -Wall -Wextra -pedantic -O2 main.c -o assignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 683.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F2 8.7 Tf 12 TL (Predicted output:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 633.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 5 38.7 Tm /F5 6.3 Tf 7.5 TL (Hash search 33: Found) Tj T* (Hash search 33 after delete: Not found) Tj T* (Job 102 priority 1) Tj T* (Job 103 priority 2) Tj T* (Job 101 priority 3) Tj T* (Insertion sorted: 5 10 13 14 22 29 37) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 603.1969 cm
+q
+BT 1 0 0 1 0 15.3 Tm 12 TL /F2 8.7 Tf 0 0 0 rg (Execution status:) Tj /F1 8.7 Tf ( Not measured in this report; the output above is predicted from the code and must be confirmed by) Tj T* (compiling and running on the submission computer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 583.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (11.2 Mandatory test matrix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 392.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 187 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 153 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 119 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 85 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 51 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 17 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 174 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Test) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 174 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Input / event) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 174 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Expected result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 174 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insert new key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Key searchable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insert duplicate key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Duplicate rejected) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Search missing key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Not found; no crash) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Delete colliding key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Other keys remain searchable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Two equal-priority jobs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Earlier arrival first) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Remove empty heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Safe empty status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Predicted PASS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sort sorted input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Ascending output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 55 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (To execute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Reverse input with duplicates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sorted; duplicates retained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (To execute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Empty / one element) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Safe correct result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (To execute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.51969 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Ten mixed operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 196.7559 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Hash and heap invariants valid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.3386 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (To execute) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 187 m 453.5433 187 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 187 l S
+n 453.5433 0 m 453.5433 187 l S
+n 0 170 m 453.5433 170 l S
+n 0 153 m 453.5433 153 l S
+n 0 136 m 453.5433 136 l S
+n 0 119 m 453.5433 119 l S
+n 0 102 m 453.5433 102 l S
+n 0 85 m 453.5433 85 l S
+n 0 68 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 42.51969 0 m 42.51969 187 l S
+n 192.7559 0 m 192.7559 187 l S
+n 371.3386 0 m 371.3386 187 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 387.1969 cm
+Q
+q
+1 0 0 1 54.18898 367.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (11.3 Correctness explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 313.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL (The hash table probes cyclically from h\(key\), distinguishes EMPTY from DELETED, and rejects duplicate keys before) Tj T* (insertion. The heap compares priority first and sequence second, so the parent is always no greater than either child. Insertion) Tj T* (sort moves only values strictly greater than the key, preserving equal-value order. Quick sort partitions around a pivot and) Tj T* (recursively sorts both sides.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 15) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+54 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+55 0 obj
+<<
+/Contents 56 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 57 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 8895
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7 Tf 8.4 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 51.02362 807.874 Tm (SIMATS ENGINEERING | DATA STRUCTURES | ASSIGNMENT 4 \226 CO4) Tj T* ET
+BT 1 0 0 1 408.711 28.34646 Tm (A Mohammad Riyaz | 192524375 | Page 16) Tj T* ET
+.717647 .776471 .839216 RG
+n 51.02362 802.2047 m 544.252 802.2047 l S
+Q
+q
+1 0 0 1 54.18898 747.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 19 Tm /F2 13 Tf 16 TL (TASK 12 \226 BENCHMARKING, DESIGN RECOMMENDATION AND CONCLUSION) Tj T* (\(2 MARKS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 727.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (12.1 Benchmark plan and results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 673.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.3 Tm /F1 8.7 Tf 12 TL -0.115021 Tw (Use the same computer, compiler and optimization flags for every algorithm. Generate fixed-seed arrays of sizes 1,000, 10,000) Tj T* 0 Tw (and 100,000 with sorted, reverse-sorted and random patterns. Run each configuration at least five times, record elapsed time) Tj T* (with a monotonic high-resolution clock, and report the median. Validate that every algorithm produces the same ascending) Tj T* (output before timing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 600.1969 cm
+q
+.121569 .305882 .47451 rg
+n 0 68 453.5433 -17 re f*
+.933333 .94902 .964706 rg
+n 0 34 453.5433 -17 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 140.063 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Input size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210.9291 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Pattern) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Runs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366.8346 55 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.7 Tm /F2 7.3 Tf 9 TL (Measured time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion / Quick / Merge / Heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 140.063 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (1,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210.9291 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Random) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL /F4 7.2 Tf 9 TL (\263) Tj /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366.8346 38 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Not measured) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion / Quick / Merge / Heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 140.063 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (10,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210.9291 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Sorted) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL /F4 7.2 Tf 9 TL (\263) Tj /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366.8346 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Not measured) Tj T* ET
+Q
+Q
+q
+1 0 0 1 4 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Insertion / Quick / Merge / Heap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 140.063 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (100,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210.9291 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Reverse / Random) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.1417 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL /F4 7.2 Tf 9 TL (\263) Tj /F1 7.2 Tf 9 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366.8346 4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.2 Tf 9 TL (Not measured) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.396078 .466667 .52549 RG
+.45 w
+n 0 68 m 453.5433 68 l S
+n 0 0 m 453.5433 0 l S
+n 0 0 m 0 68 l S
+n 453.5433 0 m 453.5433 68 l S
+n 0 51 m 453.5433 51 l S
+n 0 34 m 453.5433 34 l S
+n 0 17 m 453.5433 17 l S
+n 136.063 0 m 136.063 68 l S
+n 206.9291 0 m 206.9291 68 l S
+n 306.1417 0 m 306.1417 68 l S
+n 362.8346 0 m 362.8346 68 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 595.1969 cm
+Q
+q
+1 0 0 1 54.18898 565.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.3 Tm /F1 8.7 Tf 12 TL -0.104247 Tw (Timings are marked Not measured because no benchmark execution environment and hardware measurements were supplied) Tj T* 0 Tw (with the assignment. No fabricated timing values are included.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 545.1969 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (12.2 Design recommendation \(150\226200 words\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 407.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 123.3 Tm /F1 8.7 Tf 12 TL (The recommended platform uses a hash table for student, course and job identifier lookup, a min-heap for background) Tj T* (scheduling, and different sorting algorithms according to the report requirement. A well-distributed hash function with a) Tj T* -0.000954 Tw (controlled load factor provides expected O\(1\) exact lookup, while collision handling and resizing protect correctness as records) Tj T* 0 Tw (grow. The min-heap orders jobs by \(priority, arrival sequence\), giving O\(1\) access to the next job and O\(log n\) insertion and) Tj T* -0.000345 Tw (removal; this preserves urgency and fairness for equal priorities. For large score reports that must retain the order of equal-key) Tj T* 0 Tw (records, stable merge sort is preferred because it guarantees O\(n log n\), at the cost of O\(n\) additional memory. For fixed-width) Tj T* (non-negative activity IDs, radix sort can be faster when the digit range is known. Heap sort is a suitable memory-constrained) Tj T* (alternative because it guarantees O\(n log n\) time with O\(1\) auxiliary space, but it is not stable. CPU threading, MapReduce or) Tj T* (CUDA should be introduced only after profiling shows that sorting cost justifies synchronization, communication or transfer) Tj T* (overhead. A limitation is the extra memory required by stable merge sorting. A future improvement is adaptive partitioning and) Tj T* (benchmarking on the target production hardware.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 381.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 303.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 63.3 Tm /F1 8.7 Tf 12 TL (This assignment applied hashing, priority queues, heaps and sorting techniques to a digital learning and analytics platform.) Tj T* (Separate chaining and linear probing provide alternative collision-resolution strategies; tombstones preserve search) Tj T* (correctness after deletion. A stable min-heap schedules urgent jobs while maintaining arrival order for ties. Insertion, quick,) Tj T* (merge, radix and heap sorting each serve different data and memory requirements. Parallel CPU, MapReduce and CUDA) Tj T* (approaches can accelerate large workloads, but their overhead must be measured. The final design selects each data) Tj T* (structure according to its operation pattern and verifies correctness through explicit invariants and boundary tests.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 277.1969 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Submission checklist) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 259.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( All 12 tasks are addressed in order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 241.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Hashing traces show collisions, probing and deletion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 223.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Heap traces preserve priority and arrival-order ties.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 205.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Sorting traces show passes, partitions, merges and extractions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 187.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Parallel designs identify synchronization and communication overhead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 169.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Complexity and memory calculations state assumptions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 151.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( C code, build command and test matrix are included.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 133.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL /F6 8.7 Tf 12 TL (n) Tj /F1 8.7 Tf 12 TL ( Benchmark values are honestly marked Not measured.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 114.1969 cm
+Q
+q
+1 0 0 1 54.18898 96.19685 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 8.7 Tf 12 TL (Student Signature: __________________________ Faculty Signature: __________________________) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+390 18 185 16 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 459.656 21 Tm
+(N\056Sanjay \174 124260162 \174 Page 16) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+57 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 58
+0000000000 65535 f 
+0000000015 00000 n 
+0000000232 00000 n 
+0000000397 00000 n 
+0000000446 00000 n 
+0000000732 00000 n 
+0000007528 00000 n 
+0000007635 00000 n 
+0000007742 00000 n 
+0000007854 00000 n 
+0000007969 00000 n 
+0000008047 00000 n 
+0000008153 00000 n 
+0000008237 00000 n 
+0000008526 00000 n 
+0000009306 00000 n 
+0000009414 00000 n 
+0000009703 00000 n 
+0000018569 00000 n 
+0000018677 00000 n 
+0000018966 00000 n 
+0000030587 00000 n 
+0000030695 00000 n 
+0000030984 00000 n 
+0000048667 00000 n 
+0000048775 00000 n 
+0000049064 00000 n 
+0000050684 00000 n 
+0000050792 00000 n 
+0000051081 00000 n 
+0000064536 00000 n 
+0000064644 00000 n 
+0000064933 00000 n 
+0000077457 00000 n 
+0000077565 00000 n 
+0000077854 00000 n 
+0000087351 00000 n 
+0000087459 00000 n 
+0000087748 00000 n 
+0000094127 00000 n 
+0000094235 00000 n 
+0000094524 00000 n 
+0000103435 00000 n 
+0000103543 00000 n 
+0000103832 00000 n 
+0000111059 00000 n 
+0000111167 00000 n 
+0000111456 00000 n 
+0000119850 00000 n 
+0000119958 00000 n 
+0000120247 00000 n 
+0000124984 00000 n 
+0000125092 00000 n 
+0000125381 00000 n 
+0000133442 00000 n 
+0000133550 00000 n 
+0000133839 00000 n 
+0000142787 00000 n 
+trailer
+<<
+/Size 58
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+142895
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [59 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 59 0 R] >> >> >>
+endobj
+58 0 obj
+<< /Length 24278 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^÷jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∞jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:698db7cd-d575-47b9-93ab-79b0c5142145   †jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    ﬂcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameegpt-6gversionegpt-6dwhenx2026-11-23T05:10:30.597351ZrallActionsIncludedÙ   ¶jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    vcbor•jexclusionsÅ¢estart 3„flength^÷dnamenjumbf manifestcalgfsha256dhashX §Ø ˙zß◊ÃÑπÆëvi÷è◊˙?<Ãû4I‡ßcpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:94d2a05c-3bfb-481d-bcad-800a97f47afatclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:698db7cd-d575-47b9-93ab-79b0c5142145/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX -‘…µÊ_'E˙ã;îI{;{∫U6›‰JZ±»ÛÏ*V•ª¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX „Øì&~ò¡ÚdÙ"Õ≤0|Oèªﬂú
+æ»≠·hdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYã0Çá	*ÜHÜ˜†Çx0Çt10	`ÜHe 0Åá*ÜHÜ˜	†xv0t
++Éø0010	`ÜHe  `a\6&Zy≤8íOœ-∆Sí4]‡êˇ†πüW∆3ﬂJ√Wz3ìDÌÄ…`√20261123051034.775119Z0Ä	 ‚Êq!∏µ⁄j†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" É§∏êﬁ˛±yhπZ,|˙Ù–OïÄ‹Ô¢äá‚ÉË¥0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄ,€Z–jv˛Wj&ÅF Ã e∂µ‘#Lbe.˚0XèL=°r‡/¨Ìã«j¿¶–dNÙ•«/êkı∞¶8ÿL¥Ôo WÚ[‰Ëâ£#Ú#„åKÛ©ë∆giËv≈∏J-ê (t£Hl†(~u˚3ÍL·<Xãggx◊Ga6C¿0»èˆ5ïhl;d§›éb§méØ»@•ëﬁxy∆}ü<î\u'x®ôQcy $‡V˙Xd∫÷ÿpl‰ˇXQˇ÷Z8[ï#ãDCµÈQ£ÙWï∂ü‹ˆc¯⁄êBúŸ|}êñ«è ,Éåg“¨ü@ıuÃ˘Ã¿í∑≥#«ˇÁÿUê¬≈∑t√nY@ßÚõ§ˆﬁl]Jö ≤ò2Ìy˛…ÍD†è∑[óòÉBö‡pEt÷3?∑[Ê•”ı¥cB´Î2–ZTb‚ßÏ√–π’¿µÛyCRé∆∑/„– {J$u26@IV'*˝xÍù„≠é1êé39—]‘±0w_L˚∆°o‘K]z+&cÂerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢-“Ä3óç∂û¸∏5A“§:÷20261123035721Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261123035721Z†20261130035720Z°"0 0	+020161125035721Z°#0!0	+0`Â≥µz—Z9«c18∏5v0	*ÜHÜ˜ ÇÅ Dºú¯(„!IMR'sÀî¶åÇuÿŒıí)å[aîE≥(0»Á√ñ}ùõ∂±(—Ê≥Dz0∏V)!˜0ØVJÁﬂCëmº‡áö7q™⁄Á∞∑»”	dœ>ˇëL±Nú{•PÅN+v◊ÃØd‹ê^%9YÂIéYb[ñ≥⁄ùgµÒwÇﬁû›⁄P"^î1ìú¶]"\M≠|”Ÿ"é7›dLï•k7:ãD‡j‰Å;ˆs“≠Æ5}M,&¢T‹öΩ>¡¡iﬂS1‰ù)®dÜ≈ïª∆°@	'"3∂c≥
+ãj%Î&/ë¢ç∆	ÇΩñî2†ç…Ÿ“∑*ˆ˙∂–ÔE‰H˝ÃGqm&àT∆D‹¯Ûﬂ⁄Ó'#d”œ˚9:„òn]¥ æHôÒ(®}LqqD%‹›ı≤]Ñ±™+I	ˇJ„ãõªdÎa‘âIù67ÕäØ ˇL;¬ÏLê?Y^‘?üÀÚ¥≤ê‡Hâ †Î-cò¸Ê†Ç10Ç-0Ç)0Ç†S!22y[<W3◊;]0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0261104111800Z271104111759Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ∫#è05p!"ﬁ-3•.h€ﬁXB´8;˛Õæ9÷åo¿ÆsXè•vÃqmÔL»/”†|lH)Aƒ§y«êæÖ∆ZztOÓ0[õ:í›ïCÊü¨›6çú ïàäÜ:Âœ£Jˆ8µíˆï[”rç`\F∞˘˘¥€,8’é  0QÂ¢ìã¯,êÒ{å’é`ÏHÏŒ£/≠¥àcgˇΩn*Ó´Dk–x•-y„˛£4 ‡îÚ/:jXf˚J◊›vù≤ﬁy‰™√à`6OqÂêÂZ/^•DïÒ§!fmSªÿv. ·‘a⁄™»¬∏ãL])[ÌVÉÈ;€≠}º!œX…‹<1pﬂqâä~æ>Ü^ﬁL›‹ÃÙÁÅ>Û»m˛ìrÆ‹Ú€Æ_√ q≤$Axﬂ?Q!¨Û≤<PÌ1ƒ≠(èÇf ø7#‹c÷|ËzÆgÌ∆π¯ã¨ÈîäXMπ)P—bXØ^ÜR ˚~åOC⁄Dípê~°øò„ £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0U-“Ä3óç∂û¸∏5A“§:÷0UˇÄ0	*ÜHÜ˜ Ç √ú‹U‰qú/ﬁz˛Aõ‘9†e8§–J=‡≤¶#{v(iOíênaΩˆœËÅÏ
+ˆép˛‹Ÿ7∂g	ÆcÒ¸í∫A"ZDi…4’Æ)[ÿ3ó®bb'R˘;6ï"cf√e+‰rf;=A»sòßØ{òejæX˚æN “_˘ßæˆT8“÷˝F•'üê“–âjp^ºYìÄZM;Háº3°Ô@~ˆÛäµ[ﬁ~Æ$75â§!—VÔp§Ï€‘<@ºC«√%Bç˜˙?·;;Dﬁõ1Xá#‰Ë”K£àóKÿ¶©ø/´N‹˛Gs	n)M# ÈIlK0äOÌ„ﬁFGÎ |Î“âÇÜ˙‹ D†T†Û–+â∞ﬂZ∞8Y`Ú@JÕ_œ¨’†¨Ms√¶Ïø°a#ﬂ9ækﬂTÓ…ÑÏAvôa÷®ù“['©PäÈ_Ò¡ï1≈˙|bˇÏÓ—Z	]ò÷+Qôßmô{~&”}?üÈ’∑©‡ iß‡*»$bï0j/dê—Ò4£©u
+Ò*Óî|v$˚npÃ€…È§ñ>Qßá?}„îe`K}∑Ïß÷Ωòö¥™¸GËx«éTı≤À˝9ìª4%À‘≈∂OÆ•)äHaâ∑PàˆxQ‘®5Œ1v¿•∞ìüÙ≠?≠R¯Ÿ\ó∏ÌLª&cpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ˆY !€j{_J(úÿüt¥!ÊØì–˜íè|Ïå$Ω9H◊;Ò⁄êLJª!BN†∏/˜÷Çπ;U^∏xV¨{•MÁ`ú`A≈.ﬁDra4É ◊ß¬⁄πﬁ_ß¨ŒΩ*@ØñéÈ≈n—RèD¢ıˇ^É
+.‘Ë¿ßp |¥ì◊y%X€É^Ç›—[5£î≠"°¿÷"Êïü¡¥qni99ç„?è∞8“V%ïCë`3a®ñÓ˘MÁóÊfÇÓqπ±‚ﬁ`•Ëj°œ˛RÉ©◊UÔwàí·∆`ë^ø˝¬zM˛ ô˜”ıw‚∆eûßÚ}„8Øœß!Ñ‚Kûg˝Âêk…
+endstream
+endobj
+59 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 58 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000144135 00001 n 
+58 2
+0000144270 00000 n 
+0000168651 00000 n 
+trailer
+<< /Size 60 /Root 3 1 R /Prev 142895 >>
+startxref
+168847
+%%EOF
